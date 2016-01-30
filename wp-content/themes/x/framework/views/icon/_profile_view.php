@@ -1,7 +1,8 @@
 
+<div class="x-column disclaimer x-xm left-text">
 
 <div class="x-container ">
-  <div class="x-column x-2-5">
+  <div class="x-column profile">
     <?php
     $faqPosts = new WP_Query();
     $faqPosts->query('p=42');
@@ -21,8 +22,8 @@
     </article>
     <?php endwhile; ?>
   </div>
-  <div class="x-column x-1-6"></div>
-  <div class="x-column x-2-5">
+
+  <div class="x-column profile">
     <?php
     $faqPosts2 = new WP_Query();
     $faqPosts2->query('p=44');
@@ -43,4 +44,5 @@
     <?php endwhile; ?>
   </div>
   <div style="clear:both;"></div>
+</div>
 </div>

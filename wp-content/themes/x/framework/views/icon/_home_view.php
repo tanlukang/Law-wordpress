@@ -1,3 +1,4 @@
+<div class="x-column disclaimer x-xm left-text">
 <div style="border-bottom: 1px solid rgba(0,0,0,0.075); margin-bottom:30px;">
   <span style="color: #9b9b9b;
 font-family: Helvetica;
@@ -19,7 +20,7 @@ color: #313131;">
     ?>
   </span></div>
 </article>
-<div style="padding:50px;">
+<div class="home-padding">
   <form>
       <div>
         <label>Submit your information to be part of the claim…</label>
@@ -111,3 +112,4 @@ color: #313131;">
   </div>
 </article>
 <?php endwhile; ?>
+</div>

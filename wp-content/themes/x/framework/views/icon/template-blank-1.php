@@ -14,8 +14,11 @@
     <article <?php post_class(); ?>>
       <div class="entry-wrap">
         <div class="x-container max width">
+          <div class="center-text x-column x-1-4 x-sm x-hidden-phone ">
+
           <?php x_get_view('icon', '_my_sidebar'); ?>
-          <div class="x-column x-3-5 x-hidden-phone">
+
+          </div>
            <?php while ( have_posts() ) : the_post(); ?>
              <?php
                if (get_the_ID() == 13) {
@@ -28,6 +31,10 @@
                  x_get_view('icon', '_home_view');
                } else if (get_the_ID() == 27) {
                  x_get_view('icon', '_profile_view');
+               } else if (get_the_ID() == 46) {
+                 echo '  <div class="center-text x-column x-sm">';
+                 x_get_view('icon', '_my_sidebar');
+                 echo '</div>';
                }
              ?>
            <?php endwhile; ?>

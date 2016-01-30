@@ -1,3 +1,5 @@
+<div class="x-column disclaimer x-xm left-text">
+
 <?php
 $faqPosts = new WP_Query();
 $faqPosts->query('cat=3');
@@ -29,3 +31,4 @@ $faqPosts->query('cat=3');
   </script>
 </article>
 <?php endwhile; ?>
+</div>
