@@ -36,6 +36,7 @@ $is_one_page_nav = x_is_one_page_navigation();
 
   <div class="x-navbar-wrap">
     <div class="<?php x_navbar_class(); ?>">
+      <div id="mobile-logo" class=" mobile-logo x-hide-lg x-hide-md x-hide-xl"><image src="<?php bloginfo('template_directory'); ?>/framework/img/global/bitmap.png" style="width:140px;" /></div>
       <div class="x-navbar-inner">
         <div class="x-container max width">
           <?php x_get_view( 'global', '_brand' ); ?>

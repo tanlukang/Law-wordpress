@@ -7177,9 +7177,31 @@ h2,h3 {
 	.x-hide-sm {
 	display:none !important
 }
+.mobile-logo {
+	position: absolute;
+	left:45%;
+	width: 50px;
+	top:70px;
+height: 50px;
+background-color: white;
+border: 1px solid #ddd;
+border-radius:50px;
+
+}
 }@media (max-width: 480px) {
 	.x-hide-xs {
 	display:none !important
+}
+.mobile-logo {
+	position: absolute;
+	left:45%;
+	width: 50px;
+	top:70px;
+height: 50px;
+background-color: white;
+border: 1px solid #ddd;
+border-radius:50px;
+
 }
 }.x-visible-phone {
 	display:none !important
