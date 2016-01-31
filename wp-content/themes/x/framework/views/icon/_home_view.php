@@ -20,22 +20,22 @@ color: #313131;">
     ?>
   </span></div>
 </article>
-<div class="home-padding">
+<div class="bg-grey submit-form">
   <form>
       <div>
         <label>Submit your information to be part of the claim…</label>
       </div>
       <div>
-        <input id="submitInfo_name" type="text" style="width: 395px;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Name" />
+        <input id="submitInfo_name" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Name" />
       </div>
       <div>
-        <input id="submitInfo_email" type="text" style="width: 395px;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Email" />
+        <input id="submitInfo_email" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Email" />
       </div>
       <div>
-        <input id="submitInfo_phone" type="text" style="width: 395px;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Phone number" />
+        <input id="submitInfo_phone" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Phone number" />
       </div>
-      <div style="width: 395px;text-align:right">
-        <button id="submitInfoBtn" onclick="return false;" style="width: 151px;height: 44px;background-color: #3b8dbd;border-radius: 8px;color:white" >Submit</button>
+      <div style="width: 100%;text-align:right">
+        <button id="submitInfoBtn" onclick="return false;" class="submit-button-width" style="height: 44px;background-color: #3b8dbd;border-radius: 8px;color:white" >Submit</button>
       </div>
   </form>
 </div>

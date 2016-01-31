@@ -997,7 +997,7 @@ table tbody+tbody {
 }
 .masthead-inline .desktop .x-nav {
 	display:block;
-	float:right
+	float:left;
 }
 .masthead-stacked .desktop .x-nav {
 	display:table;
@@ -7364,9 +7364,6 @@ span.x-hidden-desktop {
 	width: 70%;
 }
 
-.home-padding {
-	padding:50px;
-}
 .profile{
 	width: 45%;
 }
@@ -7381,4 +7378,61 @@ span.x-hidden-desktop {
 		width: 100%;
 		margin-bottom: 30px;
 	}
+}
+
+.bg-grey {
+	background-color: #f3f3f3;
+}
+
+.submit-form {
+	padding:50px;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+
+.submit-form {
+	padding:50px;
+	width: 500px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.submit-button-width {
+	width: 150px;
+}
+}
+
+.submit-button-width {
+	width: 30%;
+}
+
+.f20 {
+	font-size: 20px !important;
+	font-size: 2.0rem !important
+}
+
+@media (min-width: 1258px) {
+	.icon-first-ml {
+		margin-left: 4.0em;
+	}
+}
+
+@media (min-width: 1187px) (max-width: 1258px) {
+	.icon-first-ml {
+		margin-left: 3.0em;
+	}
+}
+
+@media (min-width: 993px) (max-width: 1186px) {
+	.icon-first-ml {
+		margin-left: 1.5em;
+	}
+}
+@media (max-width: 992px) {
+.icon-first-ml {
+	margin-left:0.8em;
+}
 }

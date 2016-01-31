@@ -14,7 +14,7 @@
     <article <?php post_class(); ?>>
       <div class="entry-wrap">
         <div class="x-container max width">
-          <div class="center-text x-column x-1-4 x-sm x-hidden-phone ">
+          <div class="bg-grey center-text x-column x-1-4 x-sm x-hidden-phone ">
 
           <?php x_get_view('icon', '_my_sidebar'); ?>
 
