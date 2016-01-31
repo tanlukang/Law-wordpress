@@ -12,7 +12,7 @@ $docPosts->query('cat=4');
     <div class="">
        <span style="font-size: 12px;
 font-weight: 300;
-line-height: 14px;">On &nbsp;&nbsp; <?php the_time('M  d.  Y') ?></span>
+line-height: 14px;"><?php the_time('M  d.  Y') ?></span>
        <span style="
 font-size: 14px;
 font-weight: 400;

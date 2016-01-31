@@ -90,7 +90,7 @@ font-size: 24px;
 font-weight: 400;
 line-height: 29px;">CASE STATUS UPDATE</span>
 </div>
-<article style="max-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<!-- <article style="max-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="">
     <div class="">
        <span style="font-size: 12px;
@@ -145,9 +145,9 @@ The original complaint was filed was filed in Baltimore City Circuit Court on be
        </span>
     </div>
   </div>
-</article>
+</article> -->
 
-<!--<?php
+<?php
 $docPosts = new WP_Query();
 $docPosts->query('cat=4');
 ?>
@@ -157,7 +157,7 @@ $docPosts->query('cat=4');
     <div class="">
        <span style="font-size: 12px;
 font-weight: 300;
-line-height: 14px;">On &nbsp;&nbsp; <?php the_time('M  d.  Y') ?></span>
+line-height: 14px;"><?php the_time('M  d.  Y') ?></span>
        <span style="
 font-size: 14px;
 font-weight: 400;
@@ -168,5 +168,5 @@ color: #313131;">
     </div>
   </div>
 </article>
-<?php endwhile; ?>-->
+<?php endwhile; ?>
 </div>
