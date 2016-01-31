@@ -14,7 +14,7 @@
     <article <?php post_class(); ?>>
       <div class="entry-wrap">
         <div class="x-container max width">
-          <div class="bg-grey center-text x-column x-1-4 x-sm x-hidden-phone ">
+          <div class="bg-grey center-text x-column x-1-4 x-sm x-hidden-phone x-hide-md" style="width:265px; margin-top:-50px;">
 
           <?php x_get_view('icon', '_my_sidebar'); ?>
 
@@ -32,7 +32,7 @@
                } else if (get_the_ID() == 27) {
                  x_get_view('icon', '_profile_view');
                } else if (get_the_ID() == 46) {
-                 echo '  <div class="center-text x-column x-sm">';
+                 echo '  <div class="center-text x-column x-md">';
                  x_get_view('icon', '_my_sidebar');
                  echo '</div>';
                }

@@ -20,7 +20,7 @@
         <?php if ( x_get_option( 'x_footer_content_display' ) == '1' ) : ?>
           <div class="x-colophon-content">
             <?php //echo do_shortcode( x_get_option( 'x_footer_content' ) ); ?>
-            © 2013-2015 SSA Targeted Disabilities
+            © 2016 Brown Goldstein Levy
           </div>
         <?php endif; ?>
 
