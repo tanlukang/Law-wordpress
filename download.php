@@ -13,10 +13,10 @@ if ($conn) {
   $result=mysql_db_query($mysql_database, $strsql, $conn);
   $row=mysql_fetch_row($result);
 
-  $data = "name,email,phone";
+  $data = "name,email,phone,date";
   while ($row=mysql_fetch_row($result)) {
 
-      $data = $data."\r\n".$row[1].",".$row[2].",".$row[3];
+      $data = $data."\r\n".$row[1].",".$row[2].",".$row[3].",".$row[4];
   }
   header("Content-type:text/csv");
   header("Content-Disposition:attachment;filename=".$filename);
