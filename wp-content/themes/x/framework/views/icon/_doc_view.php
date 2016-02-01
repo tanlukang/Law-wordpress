@@ -4,7 +4,7 @@
 </div>
 <?php
 $docPosts = new WP_Query();
-$docPosts->query('cat=4');
+$docPosts->query('cat=4&order=asc');
 ?>
 <?php while ($docPosts->have_posts()) : $docPosts->the_post(); ?>
 <article style="max-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
