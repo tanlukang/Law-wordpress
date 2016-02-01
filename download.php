@@ -9,7 +9,7 @@ $conn = mysql_connect($mysql_server_name, $mysql_username,
 
 if ($conn) {
   $filename = "submit_info.csv";
-  $strsql="SELECT id, name, email, phone, FROM_UNIXTIME(submitTime) FROM `wp_submit_info`";
+  $strsql="SELECT * FROM `wp_submit_info`";
   $result=mysql_db_query($mysql_database, $strsql, $conn);
   $row=mysql_fetch_row($result);
 
