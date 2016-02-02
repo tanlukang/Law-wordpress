@@ -19,7 +19,7 @@ $site_logo        = '<img src="' . $logo . '" alt="' . $site_description . '">';
 	<a style="width:265px;" href="<?php echo home_url( '/' ); ?>" class="<?php x_brand_class(); ?>" title="<?php echo $site_description; ?>">
 	  <?php //echo ( $logo == '' ) ? $site_name : $site_logo; ?>
 		<span class="x-hidden-phone">
-		<p style="padding:15px">Holzheid vs. Comptroller<br>of the Treasury of Maryland</p>
+		<p style="padding:15px; line-height:1.2; margin-bottom:15px;">Holzheid v. Comptroller of<br>the Treasury of Maryland</p>
 		<p style="margin-top:-20px;padding-left:15px;font-size: 14px;font-weight: 100;line-height: 17px;margin-bottom:15px;">Class Action</p>
 	</span>
 	</a>

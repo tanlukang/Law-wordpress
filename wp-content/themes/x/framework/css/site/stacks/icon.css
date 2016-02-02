@@ -7373,11 +7373,13 @@ span.x-hidden-desktop {
 }
 
 .submit-form {
-	padding:50px;
+	padding:25px 50px;
 	width: 100%;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+.submit-form form {margin:0;}
 
 
 .submit-button-width {
@@ -7410,7 +7412,7 @@ span.x-hidden-desktop {
 @media (min-width: 768px) {
 
 	.submit-form {
-		padding:50px;
+		padding:25px 50px;
 		width: 500px;
 		margin-top: 30px;
 		margin-bottom: 30px;

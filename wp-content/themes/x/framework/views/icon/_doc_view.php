@@ -1,6 +1,6 @@
 <div class="x-column disclaimer x-xm left-text">
 <div style="border-bottom: 1px solid rgba(0,0,0,0.075); margin-bottom:30px;">
-  <span style="color: #9b9b9b;font-family: Helvetica;font-size: 24px;line-height: 29px;">Documents Pertaining to this Class Action</span>
+  <span style="color: #9b9b9b;font-family: Helvetica;font-size: 24px;line-height: 29px;">Court Documents</span>
 </div>
 <?php
 $docPosts = new WP_Query();

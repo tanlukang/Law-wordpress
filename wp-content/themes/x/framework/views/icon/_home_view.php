@@ -4,7 +4,7 @@
 font-family: Helvetica;
 font-size: 24px;
 font-weight: 400;
-line-height: 29px;">CASE Overview</span>
+line-height: 29px;">Case Overview</span>
 </div>
 <article style="ax-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div><span style="
@@ -20,13 +20,13 @@ color: #313131;">
     ?>
   </span></div>
 </article>
-<div class="bg-grey submit-form">
+<div class="bg-grey submit-form" id="SubmissionForm">
   <form>
       <div>
-        <label>Submit your information to be part of the claim…</label>
+        <label style="margin-bottom:10px;">Submit your information to be part of the claim…</label>
       </div>
       <div>
-        <input id="submitInfo_name" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Name" />
+        <input id="submitInfo_name" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Firstname Lastname" />
       </div>
       <div>
         <input id="submitInfo_email" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Email" />
@@ -74,21 +74,21 @@ color: #313131;">
             jQuery("#submitInfo_name").val("");
             jQuery("#submitInfo_email").val("");
             jQuery("#submitInfo_phone").val("");
-            alert("submit success");
+            alert("Thank you for your submission.");
           } else {
-            alert("Please try again later");
+            alert("Unable to submitt at this time, please try again later");
           }
         });
       });
 
     });
 </script>
-<div style="border-bottom: 1px solid rgba(0,0,0,0.075); margin-bottom:30px;">
+<div style="border-bottom: 1px solid rgba(0,0,0,0.075); margin-bottom:30px;margin-top:50px;">
   <span style="color: #9b9b9b;
 font-family: Helvetica;
 font-size: 24px;
 font-weight: 400;
-line-height: 29px;">CASE STATUS UPDATE</span>
+line-height: 29px;">Case Status Update</span>
 </div>
 <!-- <article style="max-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="">
