@@ -148,11 +148,12 @@ function submitInfo(){
 
   global $wpdb;
 
-	$name = $_POST['name'];
+	$fname = $_POST['fname'];
+  $lname = $_POST['lname'];
   $email = $_POST['email'];
   $phone = $_POST['phone'];
 
-  if ($wpdb->insert( 'wp_submit_info', array( 'name' => $name, 'email' => $email, 'phone' => $phone ), array( '%s', '%s', '%s' ))) {
+  if ($wpdb->insert( 'wp_submit_info', array( 'fname' => $fname, 'lname' => $lname, 'email' => $email, 'phone' => $phone ), array('%s', '%s', '%s', '%s' ))) {
     echo json_encode(array("status"=>0));
   } else {
     echo json_encode(array("status"=>1));

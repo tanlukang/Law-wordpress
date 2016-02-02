@@ -26,7 +26,10 @@ color: #313131;">
         <label style="margin-bottom:10px;">Submit your information to be part of the claim…</label>
       </div>
       <div>
-        <input id="submitInfo_name" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Firstname Lastname" />
+        <input id="submitInfo_fname" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="First Name" />
+      </div>
+      <div>
+        <input id="submitInfo_lname" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Last Name" />
       </div>
       <div>
         <input id="submitInfo_email" type="text" style="width: 100%;height: 43px;background-color: white;border: 1px solid #ddd;border-radius: 2px;" placeholder="Email" />
@@ -43,12 +46,17 @@ color: #313131;">
 <script>
     jQuery(document).ready(function($){
       jQuery("#submitInfoBtn").click(function() {
-        var name = jQuery("#submitInfo_name").val() || "";
+        var fname = jQuery("#submitInfo_fname").val() || "";
+        var lname = jQuery("#submitInfo_lname").val() || "";
         var email = jQuery("#submitInfo_email").val() || "";
         var phone = jQuery("#submitInfo_phone").val() || "";
 
-        if (name == "") {
-          alert("Please input your name");
+        if (fname == "") {
+          alert("Please input your first name");
+          return;
+        }
+        if (lname == "") {
+          alert("Please input your last name");
           return;
         }
 
@@ -71,7 +79,8 @@ color: #313131;">
         $.post("<?php echo $admin_url;?>", data, function(response) {
           response = JSON.parse(response);
           if (response.status != undefined && response.status == 0) {
-            jQuery("#submitInfo_name").val("");
+            jQuery("#submitInfo_fname").val("");
+            jQuery("#submitInfo_lname").val("");
             jQuery("#submitInfo_email").val("");
             jQuery("#submitInfo_phone").val("");
             alert("Thank you for your submission.");
