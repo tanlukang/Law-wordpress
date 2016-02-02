@@ -72,7 +72,8 @@ color: #313131;">
 
         var data={
           action:'submitInfo',
-          name:name,
+          fname:fname,
+          lname:lname,
           email:email,
           phone:phone
         }
