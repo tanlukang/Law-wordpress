@@ -6,7 +6,7 @@ font-size: 24px;
 font-weight: 400;
 line-height: 29px;">Case Overview</span>
 </div>
-<article style="ax-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article style="ax-width:1000px;width:97%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div><span style="
 font-size: 14px;
 font-weight: 400;
@@ -20,7 +20,7 @@ color: #313131;">
     ?>
   </span></div>
 </article>
-<div class="bg-grey submit-form" id="SubmissionForm">
+<div class="bg-grey submit-form" name="SubmissionForm"  id="SubmissionForm">
   <form>
       <div>
         <label style="margin-bottom:10px;">Submit your information to be part of the claim…</label>

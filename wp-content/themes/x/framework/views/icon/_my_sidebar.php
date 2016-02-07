@@ -10,11 +10,12 @@
   <hr style="width: 80%;height: 1px;border: 1px solid #ddd;margin:auto">
   <p style="text-align:center;margin:20px 0;color: #272727;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 700;">
     Daniel F. Goldstein<br>
-    Stuart H. Levine
+    Stuart Levine
   </p>
   <hr style="width: 80%;height: 1px;border: 1px solid #ddd;margin:auto">
   <p style="text-align:center;margin:20px 0;color: #272727;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;font-weight: 400;">
     Contact<br>
+    Online Form: <a href='http://www.mdinterestrateclass.com/#SubmissionForm' onclick="window.location.href='http://www.mdinterestrateclass.com/#SubmissionForm'">Here</a><br>
     Telephone: 410-962-1030<br>
     Facsimile: 410-385-0869<br>
     Email: <a href="mailto:Holzheid@mdinterestrateclass.com">Holzheid@mdinterestrateclass.com</a><br>
