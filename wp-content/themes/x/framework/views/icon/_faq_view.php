@@ -7,9 +7,9 @@ $faqPosts->query('cat=3');
 <?php while ($faqPosts->have_posts()) : $faqPosts->the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="x-container max width">
-    <div onclick="javascript:faqTitleClick(this);" style="color: #9b9b9b;font-size: 18px;font-weight: 400;line-height: 21px;margin-bottom:20px;position:relative;padding-left:20px;">
+    <h3 onclick="javascript:faqTitleClick(this);" style="color: #9b9b9b;font-size: 18px;font-weight: 400;line-height: 21px;margin-top:0; margin-bottom:20px;position:relative;padding-left:20px;">
       <div style="position:absolute; width:20px; left:-10px; margin-right:10px;display:inline-block"><image class="faq-image" src="<?php bloginfo('template_directory'); ?>/framework/img/global/ios-arrow-down-ionicons.png" /></div><?php the_title(); ?>
-    </div>
+    </h3>
     <div style="font-family: Helvetica;font-size: 14px;font-weight: 400;line-height: 18px;color:black;margin-left:20px;">
       <?php the_content(); ?>
     </div>

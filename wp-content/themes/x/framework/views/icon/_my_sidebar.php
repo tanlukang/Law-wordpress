@@ -9,7 +9,7 @@
   </p>
   <hr style="width: 80%;height: 1px;border: 1px solid #ddd;margin:auto">
   <p style="text-align:center;margin:20px 0;color: #272727;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 14px;font-weight: 700;">
-    Daniel F. Goldstein<br>
+    Andrew D. Levy<br>
     Stuart Levine
   </p>
   <hr style="width: 80%;height: 1px;border: 1px solid #ddd;margin:auto">

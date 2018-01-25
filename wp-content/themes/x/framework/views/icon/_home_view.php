@@ -1,10 +1,10 @@
 <div class="x-column disclaimer x-xm left-text">
 <div style="border-bottom: 1px solid rgba(0,0,0,0.075); margin-bottom:30px;">
-  <span style="color: #9b9b9b;
+  <h2 style="color: #9b9b9b;
 font-family: Helvetica;
 font-size: 24px;
 font-weight: 400;
-line-height: 29px;">Case Overview</span>
+line-height: 29px;margin:0;">Case Overview</h2>
 </div>
 <article style="ax-width:1000px;width:97%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div><span style="
@@ -94,80 +94,24 @@ color: #313131;">
     });
 </script>
 <div style="border-bottom: 1px solid rgba(0,0,0,0.075); margin-bottom:30px;margin-top:50px;">
-  <span style="color: #9b9b9b;
+  <h2 style="color: #9b9b9b;
 font-family: Helvetica;
 font-size: 24px;
 font-weight: 400;
-line-height: 29px;">Case Status Update</span>
+line-height: 29px;margin:0;">Case Status Update</h2>
 </div>
-<!-- <article style="max-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <div class="">
-    <div class="">
-       <span style="font-size: 12px;
-font-weight: 300;
-line-height: 14px;">On&nbsp;&nbsp;Jan 19. 2016 </span>
-       <span style="
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-color: #313131;">
-       <p>
-         A motion to dismiss was filed by the defendants in Baltimore City Circuit Court on January 8, 2016.  The motion seeks to dismiss all of the plaintiffs’ claims on the theory that they should have been brought through the administrative process established for tax disputes.  We are preparing a response to the motion that will be filed later this month.
-       </p>
-       </span>
-    </div>
-  </div>
-</article>
-
-<article style="max-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <div class="">
-    <div class="">
-       <span style="font-size: 12px;
-font-weight: 300;
-line-height: 14px;">On&nbsp;&nbsp;December 10, 2015 </span>
-       <span style="
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-color: #313131;">
-       <p>
-An amended complaint was filed in this case.  Three named plaintiffs were added – Bruce Feinerman and Jeffrey and Arielle Grill.  The named plaintiffs also stated an additional claim against Defendant the Comptroller of the Treasury of Maryland for violation of the dormant Commerce Clause of the United States Constitution.  A responsive pleading must be filed by the defendants by January 10, 2016.
-       </p>
-       </span>
-    </div>
-  </div>
-</article>
-
-<article style="max-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <div class="">
-    <div class="">
-       <span style="font-size: 12px;
-font-weight: 300;
-line-height: 14px;">On&nbsp;&nbsp;November 13, 2015 </span>
-       <span style="
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-color: #313131;">
-       <p>
-The original complaint was filed was filed in Baltimore City Circuit Court on behalf of Michael Holzheid against the Comptroller of the Treasury of Maryland and the State of Maryland.
-       </p>
-       </span>
-    </div>
-  </div>
-</article> -->
 
 <?php
 $docPosts = new WP_Query();
-$docPosts->query('cat=4');
+$docPosts->query('cat=4&posts_per_page=-1');
 ?>
 <?php while ($docPosts->have_posts()) : $docPosts->the_post(); ?>
 <article style="max-width:1000px;width:90%" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="">
     <div class="">
-       <span style="font-size: 12px;
+       <h5 style="font-size: 12px;
 font-weight: 300;
-line-height: 14px;"><?php the_time('M  d.  Y') ?></span>
+line-height: 14px; color:#999;"><?php the_time('M  d.  Y') ?></h5>
        <span style="
 font-size: 14px;
 font-weight: 400;

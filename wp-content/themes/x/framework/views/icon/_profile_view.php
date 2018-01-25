@@ -9,11 +9,11 @@
     ?>
     <?php while ($faqPosts->have_posts()) : $faqPosts->the_post(); ?>
     <div style="border-bottom: 1px solid rgba(0,0,0,0.075); margin-bottom:30px;">
-      <span style="color: #9b9b9b;
+      <h2 style="color: #9b9b9b;
     font-family: Helvetica;
     font-size: 24px;
     font-weight: 400;
-    line-height: 29px;"><?php echo get_the_title(); ?></span>
+    line-height: 29px;display:inline;"><?php echo get_the_title(); ?></h2>
     </div>
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
       <div class="">
@@ -30,11 +30,11 @@
     ?>
     <?php while ($faqPosts2->have_posts()) : $faqPosts2->the_post(); ?>
     <div style="border-bottom: 1px solid rgba(0,0,0,0.075); margin-bottom:30px;">
-      <span style="color: #9b9b9b;
+      <h2 style="color: #9b9b9b;
     font-family: Helvetica;
     font-size: 24px;
     font-weight: 400;
-    line-height: 29px;">Stuart H. Levine</span>
+    line-height: 29px;display:inline;">Stuart H. Levine</h2>
     </div>
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
       <div class="">
